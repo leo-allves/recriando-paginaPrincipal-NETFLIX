@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/icon_netflix.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/style/main.css">
+
+    <!--RESPONSIVIDADE-->
+    <link rel="stylesheet" href="./src/style/response.css">
+
+    <!--OWL CSS-->
+    <link rel="stylesheet" href="./src/style/owl/owl.carousel.min.css">
+    <!--<link rel="stylesheet" href="./src/style/owl/owl.theme.default.min.css">-->
+    <link rel="stylesheet" href="./src/style/owl/owl.theme.green.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <div class="banner-fundo">
+        <!--NAVBAR-->
+        <header>
+            <!--NAVBAR-->
+            <div class="container">
+                <!--
+                        LOGO
+                        <h2 class="logo">NETFLIX</h2>
+                        <h2 class="logo">SOBRENATURALFLIX</h2>
+                    -->
+                    <img class="logo" src="./src/img/horrorflix-logo.png" alt="">
+        
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Série</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Documentários</a>
+                </nav>
+            </div>
+        </header>
+        
+        <!--MIOLO DO SITE-->
+        <main>
+            <div class="filme-principal">
+                <!--tecnica classes wrapper-->
+                <div class="container">
+                    <!--
+                            LOGO FILME CAPA
+                            <h3 class="titulo">LEGACIES</h3>
+                        -->
+                    <img class="titulo" src="./src/img/titulo-filme-capa.png" alt="logo-titulo-capa">
+                    <p class="descricao">Hope Mikaelson, descendente da linhagem mais poderosa de vampiros, lobisomens e bruxas,
+                        frequenta a Escola Salvatore
+                        para Jovens e Superdotados, um refúgio onde ela pode aprender a controlar suas habilidades e impulsos
+                        sobrenaturais.</p>
+        
+                    <div class="botoes">
+                        <!--rulle="button" deixa claro para ser renderizado como botao-->
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSITIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+
+
+    <!--CARROSEL utilizando a ferramenta Owl Carousel 2  - usando ferramenta jequery-->
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/diario-de-um-vampiro.jpg" alt="diario-de-um-vampiro">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/originais.jpg" alt="originais">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/shadow-hunters.jpg" alt="shadow-hunters">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/sobrenatural.jpg" alt="sobrenaturais">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/the magicians.jpg" alt="the magicians">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/legados.jpg" alt="legados">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/os-bibliotecarios.jpg" alt="os-bibliotecarios">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/sabrina.jpg" alt="sabrina">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/as-cronicas-de-shanara.jpg" alt="as-cronicas-de-shanara">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/merlin.jpg" alt="merlin">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/bittn.jpg" alt="bittn">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="./src/img/folders-filmes/vanhelsing.jpg" alt="vanhelsing">
+                </div>
+        </div>
+    </div>
+
+
+
+
+    <!--link icons fontawesome -->
+    <script src="https://kit.fontawesome.com/e534ee996f.js" crossorigin="anonymous"></script>
+    <!--load all styles -->
+
+    <!--OWL JS-->
+    <script src="./src/js/owl/jquery.min.js"></script>
+    <script src="./src/js/owl/owl.carousel.min.js"></script>
+    <!--chamando o setup aonde esta meu codigo owl de chamada-->
+    <script src="./src/js/owl/setup.js"></script>
+    
+</body>
+</html>

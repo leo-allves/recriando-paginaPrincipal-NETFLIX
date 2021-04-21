@@ -1,0 +1,329 @@
+
+@media screen and (min-width: 920px) {
+    .filme-principal .container{
+        background-color: rgb(255, 72, 0);
+    }
+    .filme-principal .botao{
+        font-size: 12px;
+    }
+    .filme-principal .container{
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+    .filme-principal .container{
+        background-color: rgb(75, 148, 75);
+    }
+    .filme-principal .titulo{
+        width: 180px;
+    }
+    .filme-principal .descricao{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .filme-principal .botao{
+        font-size: 9px;
+    }
+    .filme-principal .container{
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 776px) {
+    .filme-principal .container{
+        background-color: rgb(75, 82, 148);
+    }
+    .filme-principal .titulo{
+        width: 180px;
+    }
+    .filme-principal .descricao{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .filme-principal .botao{
+        font-size: 10px;
+        padding: 12px;
+    }
+    .filme-principal .container{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 661px) {
+    .filme-principal .container{
+        background-color: rgb(201, 89, 37);
+    }
+    .filme-principal .titulo{
+        width: 180px;
+    }
+    .filme-principal .descricao{
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+    .filme-principal .botao{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .filme-principal .container{
+        width: 45%;
+    }
+
+    /*por causa do menu tive que da uma despregada e reduzida*/
+
+    header nav a{
+        font-size: 14px;
+    }
+    header .logo{
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 643px) {
+    .filme-principal .container{
+        background-color: rgba(138, 201, 37, 0.959);
+    }
+    .filme-principal .titulo{
+        width: 180px;
+    }
+    .filme-principal .descricao{
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+    .filme-principal .botao{
+        font-size: 10px;
+        width: 200px;
+        margin-top: 5px;
+    
+    }
+    .filme-principal .container{
+        width: 45%;
+    }
+
+    /*por causa do menu tive que da uma despregada e reduzida*/
+
+    header nav a{
+        font-size: 14px;
+    }
+    header .logo{
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 561px) {
+    .filme-principal .container{
+        background-color: rgba(201, 37, 179, 0.959);
+        margin-top: 40px;
+    }
+    .filme-principal .titulo{
+        width: 180px;
+    }
+    .filme-principal .descricao{
+        text-align: center;
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+    .filme-principal .botao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        width: 200px;
+        margin-top: 5px;
+        padding: 8px 0;
+    
+    }
+    .filme-principal .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+    }
+
+    /*por causa do menu tive que da uma despregada e reduzida*/
+
+    header nav a{
+        font-size: 14px;
+    }
+    header .logo{
+        width: 210px;
+    }
+
+    header .container{
+        background-color: aqua;
+        display: flex;
+       flex-direction: column;
+
+        margin-left: 0rem;
+    }
+}
+
+
+
+@media screen and (max-width: 546px) {
+    .filme-principal .container{
+        background-color: rgba(37, 127, 201, 0.959);
+        margin-top: 20px;
+    }
+    .filme-principal .titulo{
+        width: 180px;
+    }
+    .filme-principal .descricao{
+        text-align: center;
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+    .filme-principal .botao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        width: 200px;
+        margin-top: 5px;
+        padding: 8px 0;
+    
+    }
+    .filme-principal .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        
+    }
+
+    /*por causa do menu tive que da uma despregada e reduzida*/
+
+    header nav a{
+        font-size: 14px;
+    }
+    header .logo{
+        width: 210px;
+    }
+
+    header .container{
+        background-color: aqua;
+        display: flex;
+       flex-direction: column;
+
+        margin-left: -13rem;
+    }
+}
+
+
+/*iPhone 6/7/8 Plus*/
+
+@media screen and (max-width: 546px) {
+    .filme-principal .container{
+        background-color: rgba(212, 18, 180, 0.658);
+        margin-top: 20px;
+        margin-left: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .filme-principal .titulo{
+        width: 180px;
+    }
+    .filme-principal .descricao{
+        text-align: center;
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+    .filme-principal .botao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        width: 200px;
+        margin-top: 5px;
+        padding: 8px 0;
+    
+    }
+
+    /*por causa do menu tive que da uma despregada e reduzida*/
+
+    header nav a{
+        font-size: 14px;
+    }
+    header .logo{
+        width: 210px;
+    }
+
+    header .container{
+        background-color: rgb(170, 168, 131);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       flex-direction: column;
+
+       margin-left: 0rem;
+
+    }
+}
+
+
+
+/*iPhone 5/SE */
+
+@media screen and (max-width: 321px) {
+    .filme-principal .container{
+        background-color: rgba(24, 212, 18, 0.658);
+        margin-top: 20px;
+        margin-left: 16px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .filme-principal .titulo{
+        width: 180px;
+    }
+    .filme-principal .descricao{
+        text-align: center;
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+    .filme-principal .botao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        width: 200px;
+        margin-top: 5px;
+        padding: 8px 0;
+    
+    }
+
+    /*por causa do menu tive que da uma despregada e reduzida*/
+
+    header nav a{
+        font-size: 14px;
+    }
+    header .logo{
+        width: 210px;
+    }
+
+    header .container{
+        background-color: rgb(170, 168, 131);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       flex-direction: column;
+
+       margin-left: 0rem;
+
+    }
+}
