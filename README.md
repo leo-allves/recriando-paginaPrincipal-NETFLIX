@@ -1,4 +1,4 @@
-# recriando-paginaPrincipal-NETFLIX
+# Recriando Página Principal NETFLIX
 
  ### Recriando a página da Netflix com HTML5, CSS3, JavaScript e usado tambem biblioteca JQUERY
   - Trazendo título e sentido diferente com o tema de FICÇÃO DE TERROR 
